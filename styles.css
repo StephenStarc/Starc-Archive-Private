@@ -1,0 +1,89 @@
+body {
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.5s ease;
+}
+
+.cool-background {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+}
+
+.card {
+    box-shadow: 0 20px 27px 0 rgb(0 0 0 / 5%);
+    transition: all 0.3s ease;
+}
+
+.cool-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.cool-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 30px 40px 0 rgb(0 0 0 / 10%);
+}
+
+.avatar.sm {
+    width: 2.25rem;
+    height: 2.25rem;
+    font-size: .818125rem;
+    transition: transform 0.3s ease;
+}
+
+.rotate-on-hover:hover {
+    transform: rotate(360deg);
+}
+
+.table-nowrap .table td, .table-nowrap .table th {
+    white-space: nowrap;
+}
+
+.table>:not(caption)>*>* {
+    padding: 0.75rem 1.25rem;
+    border-bottom-width: 1px;
+}
+
+.cool-table {
+    color: #ffffff;
+}
+
+.cool-table th {
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    color: #ffffff;
+}
+
+.cool-table tr {
+    transition: background-color 0.3s ease;
+}
+
+.cool-table tr:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.glow-text {
+    color: #ffffff;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffd700;
+}
