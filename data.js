@@ -1,5 +1,4 @@
 const data = [
-    { slno: 1, title: 'AWS - Intro', category:'AWS', date: '29 July, 2024', blogLink: 'https://starc-blogs-eac032.webflow.io/posts/aws-introduction'},
-    { slno: 2, title: 'AWS - Cloud Concept', category:'AWS', date: '29 July, 2024', blogLink: 'https://starc-blogs-eac032.webflow.io/posts/cloud-concepts'},
+    { slno: 1, title: 'The 10 Quintessential Mindsets Of Sexuality - Module 1', category:'Best She Ever Had', date: '6 Sept, 2024', blogLink: 'https://starc-private-archive.webflow.io/blog-post/the-10-quintessential-mindsets-of-sexuality---module-1'},
     // Add more objects as needed
 ];
