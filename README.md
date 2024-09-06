@@ -19,8 +19,8 @@ So, yeah here we are. i want to see all data in simple site. so used the pubilc 
 ## File Structure
 - `index.html`: Main HTML file
 - `styles.css`: CSS styles for the application
-- `data.js`: JavaScript file containing the data for the table (not included in this repository)
-- `logo.jpg`: Logo image file (not included in this repository)
+- `data.js`: JavaScript file containing the data for the table
+- `logo.jpg`: Logo image file
 
 ## Setup
 1. Clone this repository to your local machine.
